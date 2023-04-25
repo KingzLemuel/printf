@@ -20,9 +20,15 @@ int _print_int(va_list args)
 		my_array[i] = (digit % 10);
 		digit = digit / 10;
 		if (digit == 0)
+
 		{	
             break;
         }
+
+		{
+			break;
+		}
+
 			i++;
 	}
 
@@ -33,4 +39,4 @@ int _print_int(va_list args)
 	}
 
 	return (digit);
-}													
+}
